@@ -24,7 +24,7 @@ fraudguard-ai/
 ## Deployment
 
 ### Backend (Render)
-- **URL**: https://back-2-i866.onrender.com
+- **URL**: https://back-3-tgqa.onrender.com
 - **Framework**: FastAPI
 - **Python**: 3.9+
 - **Build Command**: `pip install -r requirements.txt`

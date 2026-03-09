@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Production defaults for Netlify deployment
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://back-2-i866.onrender.com';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://back-3-tgqa.onrender.com';
 const API_KEY = import.meta.env.VITE_API_KEY || 'oHhGXPVm5rIljDywuhkywC6ICx1cTniydSvkJG8D99U';
 
 console.log('API Configuration:', { API_BASE_URL, hasApiKey: !!API_KEY }); // Debug log
