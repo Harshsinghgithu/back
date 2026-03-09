@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fraudguard-backend
+    runtime: python3
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: API_KEY
+        value: oHhGXPVm5rIljDywuhkywC6ICx1cTniydSvkJG8D99U
