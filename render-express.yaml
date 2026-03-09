@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fraudguard-backend-express
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: API_KEY
+        value: oHhGXPVm5rIljDywuhkywC6ICx1cTniydSvkJG8D99U
+      - key: NODE_ENV
+        value: production
